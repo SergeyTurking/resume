@@ -1,0 +1,501 @@
+/*
+font-family: 'Gideon Roman', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Revalia', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Supermercado One', cursive;
+*/
+
+
+
+
+/* header*/
+header {
+    
+    height: 899px;
+    background-image: url("./img/image0082.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+    
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.number{
+    padding-top: 100px;
+    width: 400px;
+    font-size: 24px;
+    font-family: 'Supermercado One', cursive;
+    font-weight: 500;
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+.img_bro{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 360px;    
+}
+.menuHeader {
+    background-color: rgba(255, 255, 255, 0.404);
+    display: flex;
+    margin-top: 162px;
+    justify-content: center;
+    height: 50px;
+    
+}
+.menu {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: 'Supermercado One', cursive;
+    font-weight: 700;
+    margin-top: -17px;
+}
+
+.button1{
+   margin: 0 auto;
+   padding: 0 auto;
+   display: flex;
+   height: 50px;
+   width: 150px;
+   border-radius: 10px;
+   background-color: #00000099;
+   color: #fff;
+   border-color: rgb(255, 255, 255);
+   border-width: 3px;
+   border-style:solid;
+   font-family: 'Supermercado One', cursive ;
+   
+   padding-top: 5px;
+   font-size: 20px;
+   position: fixed;
+   top: 20px; left: 0; bottom: 0; right: 0;  
+   padding-left: 20px;
+   z-index: 10;
+   
+}
+
+.buttonA{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
+/*--------------------about---------------------------*/
+
+.about {
+    height: 500px;
+    background-color: #fff;
+   
+    display: flex;
+    justify-content: center;
+    
+
+}
+.about_txt {
+    
+    width: 500px;
+    font-size: 17px;
+    font-family: 'Supermercado One', cursive ;
+    font-weight: 900;
+    padding-top: 80px;
+    
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+   
+   
+    margin-right: 0px;
+    
+    
+    
+}
+.about_txt2 {
+    
+    width: 500px;
+    font-size: 17px;
+    font-family: 'Supermercado One', cursive ;
+    font-weight: 900;
+    padding-top: 80px;
+    
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+   
+    
+    margin-left: 0px;
+    
+    
+}
+
+.about_txt3 {
+    color: red;
+    font-size: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.about_txt33 {
+   
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+    
+}
+p{
+    text-indent: 30px;   /*<--   красная строка*/
+}
+p span {
+    color: red;
+}
+
+
+
+
+
+
+
+/*-------time servis---------*/
+
+.time_servis {
+    height: 800px;
+    background-image: url("./img/hours.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    
+}
+.time_servis333 {
+    height: 800px;
+    background-image: url("./img/contacts.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    
+}
+.time_servis1 {
+    display: flex;
+    justify-content: center;
+}
+
+.time_button {
+    width: 140px;
+    height: 35px;
+    border-radius: 7px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 240px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Supermercado One', cursive ;
+    font-weight: 900;}
+
+.time_servis_txt {
+    display: flex;
+    justify-content: center;
+    font-family: 'Supermercado One', cursive ;
+    font-weight: 900;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.time_servis_txt1 {
+    margin-left: 120px;
+    margin-right: 115px;
+}
+.ps::before {
+width: 3px;
+height: 300px;
+position: absolute;
+
+background-color: black;
+z-index: 2;
+content: " ";
+margin-right: 50%;
+margin-left: 50%;
+margin-top: 230px;
+}
+
+
+.time_button1::after{
+width: 300px;
+height: 2px;
+position: absolute;
+background-color: rgb(0, 0, 0);
+content: " ";
+margin-top: 40px;
+margin-left: -200px;
+z-index: 2;
+}
+.time_button11::after{
+width: 300px;
+height: 2px;
+position: absolute;
+background-color: rgb(155, 72, 72);
+content: " ";
+margin-top: 40px;
+margin-left: -200px;
+z-index: 2;
+}
+.time_button2::after{
+width: 300px;
+height: 2px;
+position: absolute;
+background-color: black;
+content: " ";
+margin-top: 40px;
+margin-left: -170px;
+z-index: 2;
+}
+.time_button222::after{
+width: 300px;
+height: 2px;
+position: absolute;
+background-color: black;
+content: " ";
+margin-top: 40px;
+margin-left: -210px;
+z-index: 2;
+}
+.time_button1::before{
+width: 2px;
+height: 15px;
+position: absolute;
+background-color: black;
+content: " ";
+margin-top: 25px;
+margin-left: 40px;
+z-index: 2;
+}
+.time_button11::before{
+width: 2px;
+height: 15px;
+position: absolute;
+background-color: black;
+content: " ";
+margin-top: 25px;
+margin-left: 30px;
+z-index: 2;
+}
+.time_button2::before{
+    width: 2px;
+    height: 15px;
+    position: absolute;
+    background-color: black;
+    content: " ";
+    margin-top: 25px;
+    margin-left: 25px;
+    z-index: 3;
+}
+.time_button222::before{
+    width: 2px;
+    height: 15px;
+    position: absolute;
+    background-color: black;
+    content: " ";
+    margin-top: 25px;
+    margin-left: 55px;
+    z-index: 3;
+}
+
+
+/*gallery*/
+.gallery {
+    height: 1000px;
+   
+    
+    text-align: center;    
+}
+.gallery2{
+    width: 300px;
+    
+}
+.imgP{
+    margin-top: 0;
+    font-size:70px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+.gallery11 {
+    margin-top: -60px;
+}
+/*
+font-family: 'Gideon Roman', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Revalia', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Supermercado One', cursive;
+*/
+
+/* мастера*/
+
+.masters_title {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    
+}
+.img1 {
+    width: 250px;
+    border-width: 1px;
+    border-color: black;
+}
+.anton {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px; 
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+    margin-left: -20px;
+}
+.anton_z {
+    
+   
+   height: 50px;
+   width: 150px;
+   border-radius: 10px;
+   background-color: #00000000;
+   color: rgb(0, 0, 0);
+   border-color: rgb(0, 0, 0);
+   border-width: 3px;
+   border-style:solid;
+   font-family: 'Supermercado One', cursive ;
+   font-size: 20px; 
+   margin:  auto;
+   display: flex;
+   padding-left: 20px;
+   padding-top: 5px;
+   
+   
+}
+.masters_photo {
+    
+    display: flex;
+    justify-content: center;
+   
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.master_photo0 {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+    justify-content: center;
+}
+.masters_photo5 {
+    margin-top: 50px;
+}
+
+/*contacts*/
+
+.time_servis2 {
+    margin-top: 100px;
+}
+
+
+
+.dopSer {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+}
+.dopSer1 {
+    margin-left: -150px;
+}
+.dopSer2 {
+    margin-left: -301px; 
+} 
+.dopSer3 {
+    margin-left: -125px; 
+} 
+.time_button11::after{
+    width: 300px;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    content: " ";
+    margin-top: 40px;
+    margin-left: -180px;
+    z-index: 2;
+    }
+
+
+.vk {
+    width: 15px;
+}
+.inst {
+    width: 15px;
+}
+.face {
+    width: 15px;
+}
+.you {
+    width: 15px;
+}
+.time_servis_txt10 {
+    margin-left: 135px;
+    margin-right: 115px;
+}
+
+/*media*/
+.media_title {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.img_bro2{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 200px;  
+    margin-bottom: 100px;
+    margin-top: 50px;  
+}
+.media {
+    text-align: center;
+}
+
+.PF {
+    font-size: 24px;
+}
+.PF2 {
+    font-size: 12px;
+}
+
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;  /*<------плавный скрол*/
+    
+}
+
+/*кнопки*/
+
+.buttonB {
+    text-decoration: none;
+    color: black;
+}
